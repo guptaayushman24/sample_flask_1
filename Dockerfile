@@ -38,7 +38,7 @@ RUN pip3 install --upgrade pip && \
     python3 setup.py install --set BUILD_SHARED_LIBS=OFF
 
 RUN pip3 install face_recognition
-RUN pip3 install flask
+# RUN pip3 install flask
 
 # Runtime Image
 FROM python:3.8-slim-buster
