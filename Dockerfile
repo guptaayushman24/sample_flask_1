@@ -37,7 +37,7 @@ RUN pip3 install --upgrade pip && \
     cd dlib/ && \
     python3 setup.py install --set BUILD_SHARED_LIBS=OFF
 
-RUN pip3 install face_recognition
+RUN pip3 install face-recognition
 # RUN pip3 install flask
 
 # Runtime Image
